@@ -1,0 +1,35 @@
+.btn-container {
+  display: flex;
+  gap: 0 30px;
+}
+
+.btn-outline {
+  height: 48px;
+  width: 160px;
+  border-radius: 5px;
+  /*   padding: 12px 20px; */
+  border: 1px solid var(--blackpure);
+  color: var(--blackpure);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  transition: opasity 0.2s ease-in;
+}
+
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.btn-outline:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 640px) {
+  .btn-container {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+}
