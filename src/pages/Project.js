@@ -1,8 +1,5 @@
 import { useParams } from "react-router-dom";
-
-import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import BtnGitHubBackend from "../components/btnGitHubBackend/BtnGitHubBackend";
-import BtnWebsite from "../components/btnWebsite/BtnWebsite";
+import ProjectBtns from "../components/projectBtns/ProjectBtns";
 
 import { projects } from "../helpers/projectsList";
 
@@ -15,11 +12,11 @@ const Project = () => {
         <div className='project-details'>
           <h1 className='projects__title'>{project.title}</h1>
           <div className='btn-container'>
-            {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
-            {project.URL && <BtnWebsite URL={project.URL} />}
-            {project.gitHubBackend && (
-              <BtnGitHubBackend linkBacend={project.gitHubBackend} />
-            )}
+            <ProjectBtns
+              link={project.gitHubLink}
+              URL={project.URL}
+              linkBackend={project.gitHubBackend}
+            />
           </div>
           <div className='project-details__description'>
             <p>Skills: {project.skills}</p>
