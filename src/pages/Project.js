@@ -14,16 +14,6 @@ const Project = () => {
       <div className='container'>
         <div className='project-details'>
           <h1 className='projects__title'>{project.title}</h1>
-          <img
-            className='project-details__img'
-            src={project.img}
-            /*             src={project.imgBig} */
-            alt={project.title}
-          />
-          <div className='project-details__description'>
-            <p>Skills: {project.skills}</p>
-          </div>
-
           <div className='btn-container'>
             {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
             {project.URL && <BtnWebsite URL={project.URL} />}
@@ -31,6 +21,16 @@ const Project = () => {
               <BtnGitHubBackend linkBacend={project.gitHubBackend} />
             )}
           </div>
+          <div className='project-details__description'>
+            <p>Skills: {project.skills}</p>
+          </div>
+          <a href={project.URL} target='_blank' rel='noreferrer'>
+            <img
+              className='project-details__img'
+              src={project.img}
+              alt={project.title}
+            />
+          </a>
         </div>
       </div>
     </main>

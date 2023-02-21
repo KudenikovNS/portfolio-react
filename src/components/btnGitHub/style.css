@@ -1,6 +1,7 @@
 .btn-container {
   display: flex;
   gap: 0 30px;
+  margin-bottom: 20px;
 }
 
 .btn-outline {
