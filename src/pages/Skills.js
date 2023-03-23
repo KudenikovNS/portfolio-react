@@ -1,4 +1,4 @@
-const AboutMe = () => {
+const Skills = () => {
   return (
     <>
       <main className='section'>
@@ -31,4 +31,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Skills;

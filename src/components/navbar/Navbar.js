@@ -29,12 +29,12 @@ const Navbar = () => {
             </li>
             <li className='nav-list__item'>
               <NavLink
-                to='/aboutme'
+                to='/skills'
                 className={({ isActive }) =>
                   isActive ? activLink : normalLink
                 }
               >
-                About Me
+                Skills
               </NavLink>
             </li>
             <li className='nav-list__item'>
