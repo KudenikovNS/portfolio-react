@@ -6,7 +6,7 @@ const Contacts = () => {
         <ul className='contetn-list'>
           <li className='content-list__item'>
             <h2 className='projects__title2'>Location</h2>
-            <p>Cyprus</p>
+            <p>Georgia</p>
           </li>
           <li className='content-list__item'>
             <h2 className='projects__title2'>Telegram / WhatsApp</h2>
