@@ -8,20 +8,23 @@ const Skills = () => {
             <li className='content-list__item'>
               <h2 className='projects__title2'>Frontend</h2>
               <p>
-                JavaScript, ReactJS, Gatsby.js, HTML, CSS, OOP, BEM Nested,
-                WebPack, GitHub, Figma, Cross-browser layout, Adaptive layout,
-                Selenium
+                JavaScript, TypeScript, React, Gatsby, WordPress, HTML, CSS,
+                Git, Figma, BEM, OOP, WebPack, Cross-browser layout, Adaptive
+                layout
               </p>
             </li>
             <li className='content-list__item'>
               <h2 className='projects__title2'>Backend</h2>
-              <p>NodeJS, MSSQL, MongoDB, C#, PowerShell, Postman</p>
+              <p>Node.js, Postman, MongoDB, Express, C#, MsSQL</p>
             </li>
             <li className='content-list__item'>
               <h2 className='projects__title2'>Additional skills</h2>
               <p>
-                Technical writer, Support, Decision making, Analytics,
-                Communication, Attention to detail
+                Development of the client side, Agile programming methodology,
+                Technical writer, Product Management, Team Management, Scrum,
+                Kanban, Analytical skills, Strategic Thinker, Decision making,
+                Ability to lead, Сommunications, Relating with people, Action
+                Oriented, Focus on results, Personal responsibility, Support
               </p>
             </li>
           </ul>
