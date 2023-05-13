@@ -12,6 +12,7 @@ import project11 from "./../images/projects/projects_11.jpg";
 import project12 from "./../images/projects/projects_12.jpg";
 import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
+import project15 from "./../images/projects/projects_15.jpg";
 
 const projects = [
   {
@@ -62,15 +63,17 @@ const projects = [
     title: "Diplom (+Backend)",
     skills: "HTML, CSS, JS, React, Git, Express.js, mongoDB",
     img: project06,
-    gitHubLink: "https://github.com/KudenikovNS/movies-explorer-frontend/tree/level-3", 
-    gitHubBackend: "https://github.com/KudenikovNS/movies-explorer-api/tree/level-1"
+    gitHubLink:
+      "https://github.com/KudenikovNS/movies-explorer-frontend/tree/level-3",
+    gitHubBackend:
+      "https://github.com/KudenikovNS/movies-explorer-api/tree/level-1",
   },
   {
     id: 7,
     title: "Lamborghini",
     skills: "HTML, CSS, JavaScript, BEM Nested, Flexbox, Adaptive",
     img: project07,
-    gitHubLink: "https://github.com/KudenikovNS/lamborghini-super-trofeo", 
+    gitHubLink: "https://github.com/KudenikovNS/lamborghini-super-trofeo",
     URL: "https://kudenikovns.github.io/lamborghini-super-trofeo/",
   },
   {
@@ -78,7 +81,7 @@ const projects = [
     title: "Psychologist Irina Dan",
     skills: "HTML, CSS, JavaScript, BEM Nested, Flexbox, Adaptive",
     img: project08,
-    gitHubLink: "https://github.com/KudenikovNS/Ira-Dan", 
+    gitHubLink: "https://github.com/KudenikovNS/Ira-Dan",
     URL: "http://irinadan.com/",
   },
   {
@@ -86,48 +89,55 @@ const projects = [
     title: "Zoo",
     skills: "HTML, CSS, JavaScript, BEM Nested, Flexbox, Adaptive",
     img: project09,
-    gitHubLink: "https://github.com/KudenikovNS/online-zoo", 
+    gitHubLink: "https://github.com/KudenikovNS/online-zoo",
     URL: "https://kudenikovns.github.io/online-zoo/pages/main/index.html",
   },
   {
-    id:10,
+    id: 10,
     title: "Gallery",
     skills: "HTML, CSS, JavaScript",
     img: project10,
-    gitHubLink: "https://github.com/KudenikovNS/gallery", 
+    gitHubLink: "https://github.com/KudenikovNS/gallery",
     URL: "https://kudenikovns.github.io/gallery/",
   },
   {
-    id:11,
+    id: 11,
     title: "Slider",
     skills: "HTML, CSS, JavaScript",
     img: project11,
-    gitHubLink: "https://github.com/KudenikovNS/slider", 
+    gitHubLink: "https://github.com/KudenikovNS/slider",
     URL: "https://kudenikovns.github.io/slider/",
   },
   {
-    id:12,
+    id: 12,
     title: "Mini Game",
     skills: "HTML, CSS, JavaScript",
     img: project12,
-    gitHubLink: "https://github.com/KudenikovNS/mini-game", 
+    gitHubLink: "https://github.com/KudenikovNS/mini-game",
     URL: "https://kudenikovns.github.io/mini-game/",
   },
   {
-    id:13,
+    id: 13,
     title: "Game of circles",
     skills: "HTML, CSS, JavaScript",
     img: project13,
-    gitHubLink: "https://github.com/KudenikovNS/game-of-circles", 
+    gitHubLink: "https://github.com/KudenikovNS/game-of-circles",
     URL: "https://kudenikovns.github.io/game-of-circles/",
   },
   {
-    id:14,
+    id: 14,
     title: "Colors",
     skills: "HTML, CSS, JavaScript",
     img: project14,
-    gitHubLink: "https://github.com/KudenikovNS/colors", 
+    gitHubLink: "https://github.com/KudenikovNS/colors",
     URL: "https://kudenikovns.github.io/colors/",
+  },
+  {
+    id: 15,
+    title: "Employees",
+    skills: "React, TypeScript, Redux Toolkit, Express, Antd",
+    img: project15,
+    gitHubLink: "https://github.com/KudenikovNS/pet_project_employees",
   },
 ];
 
