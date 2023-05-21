@@ -14,14 +14,14 @@ const Header = () => {
         <div className='header__text'>
           <p>with passion for learning and creating.</p>
         </div>
-        {/*         <a
-          href='https://drive.google.com/file/d/1oktAiu34LVTfVEtw-Z8sn662LI-l7Q3m/view?usp=sharing'
+        <a
+          href='https://drive.google.com/file/d/1jtJYV8BQZI-R_jVBjPEUgwSkPRe5g5Dv/view?usp=share_link'
           className='btn'
           target='_blank'
           rel='noreferrer'
         >
           Download CV
-        </a> */}
+        </a>
       </div>
     </header>
   );
