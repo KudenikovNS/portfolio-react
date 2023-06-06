@@ -13,6 +13,7 @@ import project12 from "./../images/projects/projects_12.jpg";
 import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
 import project15 from "./../images/projects/projects_15.jpg";
+import project16 from "./../images/projects/projects_16.jpg";
 
 const projects = [
   {
@@ -138,6 +139,14 @@ const projects = [
     skills: "React, TypeScript, Redux Toolkit, Express, Antd",
     img: project15,
     gitHubLink: "https://github.com/KudenikovNS/pet_project_employees",
+  },
+  {
+    id: 16,
+    title: "Weather",
+    skills: "Vue 3",
+    img: project16,
+    gitHubLink: "https://github.com/KudenikovNS/weather_vue3",
+    URL: "https://kudenikovns.github.io/weather_vue3/",
   },
 ];
 
