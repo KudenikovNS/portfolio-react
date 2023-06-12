@@ -1,0 +1,111 @@
+.hamburger-menu__label {
+  background-color: #b6edc8;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
+  text-align: center;
+}
+
+.hamburger-menu__background {
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  background-image: radial-gradient(#115b4c, #b6edc8);
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  z-index: 600;
+  transform: scale(0);
+  transition: transform 0.8s;
+}
+
+.hamburger-menu__icon {
+  position: relative;
+  background-color: black;
+  width: 3rem;
+  height: 2px;
+  display: inline-block;
+  margin-top: 3.5rem;
+  transition: all 0.3s;
+}
+
+.hamburger-menu__icon::before,
+.hamburger-menu__icon::after {
+  content: "";
+  background-color: black;
+  width: 3rem;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hamburger-menu__icon::before {
+  top: -0.8rem;
+  transform: rotate(0);
+}
+
+.hamburger-menu__icon::after {
+  top: 0.8rem;
+  transform: rotate(0);
+}
+
+.hamburger-menu__label:hover .hamburger-menu__icon::before {
+  top: -1rem;
+}
+
+.hamburger-menu__label:hover .hamburger-menu__icon::after {
+  top: 1rem;
+}
+
+.hamburger-menu__navigation {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 600;
+  width: 0;
+  opacity: 0;
+  transition: width 0.8s, opacity 0.8s;
+}
+
+.hamburger-menu__list {
+  position: absolute;
+  list-style: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.hamburger-menu__item-link {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #b6edc8;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 50%,
+    #fff 50%
+  );
+  background-size: 240%;
+  transition: all 0.4s;
+}
+
+.hamburger-menu__item-link:hover,
+.hamburger-menu__item-link:active {
+  background-position: 100%;
+  color: #115b4c;
+  transform: translateX(1rem);
+}

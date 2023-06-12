@@ -2,7 +2,7 @@ import "./styles/main.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/navbar/Navbar";
+import Logo from "./components/logo/Logo";
 import Footer from "./components/footer/Footer";
 import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
@@ -15,7 +15,7 @@ function App() {
     <div className='App'>
       <Router>
         <ScrollToTop />
-        <Navbar />
+        <Logo />
         <Routes>
           <Route path='/portfolio-react' element={<Projects />} />
           <Route path='/skills' element={<Skills />} />

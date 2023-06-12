@@ -1,7 +1,7 @@
 .nav {
   background-color: var(--dark-bg);
   color: var(--header-text);
-  padding: 20px 0;
+  /*   padding: 20px 0; */
   border-bottom: 1px solid var(--dark-border);
   letter-spacing: normal;
 }
