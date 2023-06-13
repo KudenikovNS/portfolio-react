@@ -14,6 +14,7 @@ import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
 import project15 from "./../images/projects/projects_15.jpg";
 import project16 from "./../images/projects/projects_16.jpg";
+import project17 from "./../images/projects/projects_17.jpg";
 
 const projects = [
   {
@@ -147,6 +148,14 @@ const projects = [
     img: project16,
     gitHubLink: "https://github.com/KudenikovNS/weather_vue3",
     URL: "https://kudenikovns.github.io/weather_vue3/",
+  },
+  {
+    id: 17,
+    title: "Checkbox",
+    skills: "JavaScript",
+    img: project17,
+    gitHubLink: "https://github.com/KudenikovNS/checkboxForCustomer",
+    URL: "https://kudenikovns.github.io/checkboxForCustomer/",
   },
 ];
 
