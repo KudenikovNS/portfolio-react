@@ -15,6 +15,7 @@ import project14 from "./../images/projects/projects_14.jpg";
 import project15 from "./../images/projects/projects_15.jpg";
 import project16 from "./../images/projects/projects_16.jpg";
 import project17 from "./../images/projects/projects_17.jpg";
+import project18 from "./../images/projects/projects_18.jpg";
 
 const projects = [
   {
@@ -156,6 +157,14 @@ const projects = [
     img: project17,
     gitHubLink: "https://github.com/KudenikovNS/checkboxForCustomer",
     URL: "https://kudenikovns.github.io/checkboxForCustomer/",
+  },
+  {
+    id: 18,
+    title: "Task Manager",
+    skills: "Vue 3, JavaScript, HTML, CSS",
+    img: project18,
+    gitHubLink: "https://github.com/KudenikovNS/todo-task-vue",
+    URL: "https://main--incredible-souffle-ceedc0.netlify.app/",
   },
 ];
 
