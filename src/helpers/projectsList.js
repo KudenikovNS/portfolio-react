@@ -16,6 +16,7 @@ import project15 from "./../images/projects/projects_15.jpg";
 import project16 from "./../images/projects/projects_16.jpg";
 import project17 from "./../images/projects/projects_17.jpg";
 import project18 from "./../images/projects/projects_18.jpg";
+import project19 from "./../images/projects/projects_19.jpg";
 
 const projects = [
   {
@@ -165,6 +166,14 @@ const projects = [
     img: project18,
     gitHubLink: "https://github.com/KudenikovNS/todo-task-vue",
     URL: "https://main--incredible-souffle-ceedc0.netlify.app/",
+  },
+  {
+    id: 19,
+    title: "Fairy Forest Parallax",
+    skills: "HTML, CSS, JavaScript, GSAP",
+    img: project19,
+    gitHubLink: "https://github.com/KudenikovNS/fairy-forest-parallax",
+    URL: "https://kudenikovns.github.io/fairy-forest-parallax/",
   },
 ];
 
