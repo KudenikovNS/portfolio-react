@@ -6,18 +6,18 @@ const Contacts = () => {
         <ul className='contetn-list'>
           <li className='content-list__item'>
             <h2 className='projects__title2'>Location</h2>
-            <p>Georgia</p>
+            <p>Slovenia</p>
           </li>
           <li className='content-list__item'>
-            <h2 className='projects__title2'>Telegram / WhatsApp</h2>
+            <h2 className='projects__title2'>Telegram</h2>
             <p>
-              <a href='tel:79169679879'>+7(916)067-08-79</a>
+              <a href='https://t.me/NikitaKudenikov' target="_blank" rel="noreferrer">@NikitaKudenikov</a>
             </p>
           </li>
           <li className='content-list__item'>
             <h2 className='projects__title2'>Phone</h2>
             <p>
-              <a href='tel:995558216396'>+995-558-216-396</a>
+              <a href='tel:38640371795'>+38640371795</a>
             </p>
           </li>
           <li className='content-list__item'>
