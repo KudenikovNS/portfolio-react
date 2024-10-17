@@ -7,6 +7,7 @@ import project06 from "./../images/projects/projects_06.jpg";
 import project07 from "./../images/projects/projects_07.jpg";
 import project08 from "./../images/projects/projects_08.jpg";
 import project09 from "./../images/projects/projects_09.jpg";
+import project10 from "./../images/projects/projects_10.jpg";
 
 const projects = [
   {
@@ -80,6 +81,14 @@ const projects = [
     img: project09,
     gitHubLink: "https://github.com/KudenikovNS/gym-react",
     URL: "https://kudenikovns.github.io/gym-react/",
+  },
+  {
+    id: 10,
+    title: "Dashboard",
+    skills: `React, TypeScript, Redux Toolkit, Recharts, Mui, Vite, Express (Node.js), MongoDB, Hosting: Render, Vercel`,
+    img: project10,
+    gitHubLink: "https://github.com/KudenikovNS/dashboard",
+    URL: "https://dashboardmain-seven.vercel.app/",
   },
 ];
 
