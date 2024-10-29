@@ -21,9 +21,9 @@ const projects = [
   {
     id: 2,
     title: "Psychologist Irina Dan",
-    skills: "HTML, CSS, JavaScript, BEM Nested, Flexbox, Adaptive",
+    skills: "React, CSS, BEM, Flexbox, Adaptive",
     img: project02,
-    gitHubLink: "https://github.com/KudenikovNS/Ira-Dan",
+    gitHubLink: "https://github.com/KudenikovNS/portfolio-react",
     URL: "http://irinadan.com/",
   },
   {
