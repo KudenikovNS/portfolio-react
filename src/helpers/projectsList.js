@@ -23,7 +23,7 @@ const projects = [
     title: "Psychologist Irina Dan",
     skills: "React, CSS, BEM, Flexbox, Adaptive",
     img: project02,
-    gitHubLink: "https://github.com/KudenikovNS/portfolio-react",
+    gitHubLink: "https://github.com/KudenikovNS/irinadan-react",
     URL: "http://irinadan.com/",
   },
   {
