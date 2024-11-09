@@ -20,14 +20,6 @@ const projects = [
   },
   {
     id: 2,
-    title: "Psychologist Irina Dan",
-    skills: "React, CSS, BEM, Flexbox, Adaptive",
-    img: project02,
-    gitHubLink: "https://github.com/KudenikovNS/irinadan-react",
-    URL: "http://irinadan.com/",
-  },
-  {
-    id: 3,
     title: "Gallery",
     skills: "HTML, CSS, JavaScript",
     img: project03,
@@ -35,7 +27,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/gallery/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Slider",
     skills: "HTML, CSS, JavaScript",
     img: project04,
@@ -43,7 +35,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/slider/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Mini Game",
     skills: "HTML, CSS, JavaScript",
     img: project05,
@@ -51,7 +43,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/mini-game/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Game of circles",
     skills: "HTML, CSS, JavaScript",
     img: project06,
@@ -59,12 +51,20 @@ const projects = [
     URL: "https://kudenikovns.github.io/game-of-circles/",
   },
   {
-    id: 7,
+    id: 6,
     title: "Weather",
     skills: "Vue 3",
     img: project07,
     gitHubLink: "https://github.com/KudenikovNS/weather_vue3",
     URL: "https://kudenikovns.github.io/weather_vue3/",
+  },
+  {
+    id: 7,
+    title: "Psychologist Irina Dan",
+    skills: "React, CSS, BEM, Flexbox, Adaptive",
+    img: project02,
+    gitHubLink: "https://github.com/KudenikovNS/irinadan-react",
+    URL: "http://irinadan.com/",
   },
   {
     id: 8,
