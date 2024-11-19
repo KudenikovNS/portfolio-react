@@ -8,6 +8,7 @@ import project07 from "./../images/projects/projects_07.jpg";
 import project08 from "./../images/projects/projects_08.jpg";
 import project09 from "./../images/projects/projects_09.jpg";
 import project10 from "./../images/projects/projects_10.jpg";
+import project11 from "./../images/projects/projects_11.jpg";
 
 const projects = [
   {
@@ -89,6 +90,14 @@ const projects = [
     img: project10,
     gitHubLink: "https://github.com/KudenikovNS/dashboard",
     URL: "https://dashboardmain-seven.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "lemurrr",
+    skills: `HTML, CSS, JavaScript`,
+    img: project11,
+    gitHubLink: "https://github.com/KudenikovNS/lemurrr",
+    URL: "https://lemurrr.ru/",
   },
 ];
 
