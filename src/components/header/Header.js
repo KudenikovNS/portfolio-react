@@ -9,15 +9,13 @@ const Header = () => {
             Hi, my name is <em>Nikita</em>
           </strong>
           <br />
-          This is my portfolio as a <br/> frontend developer
+          This is my portfolio as a <br /> frontend developer
         </h1>
         <div className="header__text">
           <p>
-            * Due to the fact that the rights to the real commercial projects I
-            participated in belong to the companies I collaborated with, these
-            projects are not available for public demonstration. In my
-            portfolio, I showcase pet-projects that were created to demonstrate
-            my skills.
+            * Because the real commercial projects I have participated in are
+            under NDA (non-disclosure agreement), in my portfolio I showcase
+            projects that have been created to demonstrate my skills.
           </p>
         </div>
         <a
