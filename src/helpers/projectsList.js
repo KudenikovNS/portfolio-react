@@ -9,6 +9,7 @@ import project08 from "./../images/projects/projects_08.jpg";
 import project09 from "./../images/projects/projects_09.jpg";
 import project10 from "./../images/projects/projects_10.jpg";
 import project11 from "./../images/projects/projects_11.jpg";
+import project12 from "./../images/projects/projects_12.jpg";
 
 const projects = [
   {
@@ -99,6 +100,13 @@ const projects = [
     img: project11,
     gitHubLink: "https://github.com/KudenikovNS/dashboard",
     URL: "https://dashboardmain-seven.vercel.app/",
+  },
+  {
+    id: 12,
+    title: "Wowhunt - global boosting service",
+    skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
+    img: project12,
+    URL: "https://wowhunt.com/",
   },
 ];
 

@@ -19,20 +19,12 @@ const Header = () => {
           </p>
         </div>
         <a
-          href="https://drive.google.com/file/d/1PV664GyQNj4SOL3VZis4RWw74G5vljWH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1KMR72CgZ0VT6ZxwsndPi2WkdzLo1hzBq/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
         >
-          Download CV En
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1pQZ2pG6XBh54gwi9lXkIaUiOOeV68ZVl/view?usp=sharing"
-          className="btn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Download CV Ru
+          Download CV
         </a>
         <a
           href="https://github.com/KudenikovNS?tab=repositories"
