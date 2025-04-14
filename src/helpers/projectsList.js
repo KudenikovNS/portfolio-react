@@ -10,6 +10,7 @@ import project09 from "./../images/projects/projects_09.jpg";
 import project10 from "./../images/projects/projects_10.jpg";
 import project11 from "./../images/projects/projects_11.jpg";
 import project12 from "./../images/projects/projects_12.jpg";
+import project13 from "./../images/projects/projects_13.jpg";
 
 const projects = [
   {
@@ -107,6 +108,13 @@ const projects = [
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
     img: project12,
     URL: "https://wowhunt.com/",
+  },
+  {
+    id: 13,
+    title: "Kingboost",
+    skills: `OpenCart, Twig, JavaScript, HTML, CSS, OSPanel`,
+    img: project13,
+    URL: "https://kingboost.net/",
   },
 ];
 
