@@ -19,7 +19,7 @@ const Header = () => {
           </p>
         </div>
         <a
-          href="https://drive.google.com/file/d/1azIaW_3bkcWvOmm8iEbt2ppljd6oMg1E/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fN5OgnSFhafWnwwWYp7hM4pjjZyp0v_w/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -27,7 +27,7 @@ const Header = () => {
           Download CV EN
         </a>
         <a
-          href="https://drive.google.com/file/d/1O3A-EQK1-aJd5acvQZ_OVdue0czBixWi/view?usp=sharing"
+          href="https://drive.google.com/file/d/13y1o-XlCpD2FQbn-hUBSOKnm2zDz_Eoa/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -41,6 +41,14 @@ const Header = () => {
           rel="noreferrer"
         >
           GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kudenikovns/"
+          className="btn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkedin
         </a>
       </div>
     </header>
