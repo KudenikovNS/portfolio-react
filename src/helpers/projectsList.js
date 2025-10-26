@@ -12,6 +12,7 @@ import project11 from "./../images/projects/projects_11.jpg";
 import project12 from "./../images/projects/projects_12.jpg";
 import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
+import project15 from "./../images/projects/projects_15.jpg";
 
 const projects = [
   {
@@ -105,7 +106,7 @@ const projects = [
   },
   {
     id: 12,
-    title: "Wowhunt - global boosting service",
+    title: "Wowhunt",
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
     img: project12,
     URL: "https://wowhunt.com/",
@@ -123,6 +124,14 @@ const projects = [
     skills: `HTM, CSS, JavaScript, Blade (Laravel)`,
     img: project14,
     URL: "https://boostdealers.gg/",
+  },
+  {
+    id: 15,
+    title: "Climatise",
+    skills: `Next.js, React, CSS, TypeScript, Vite, Swiper`,
+    img: project15,
+    gitHubLink: "https://github.com/KudenikovNS/climatise",
+    URL: "https://climatise.si/",
   },
 ];
 
