@@ -1,12 +1,12 @@
 #menu {
   height: 100%;
   position: fixed;
-  background-color: #a9a497;
+  background-color: #171718;
   width: 300px;
   transition: 1000ms all cubic-bezier(0.19, 1, 0.22, 1);
   transform: translateX(-100%);
   left: 60px;
-  opacity: 0.4;
+ /*  opacity: 0.4; */
   z-index: 1;
 }
 
@@ -35,7 +35,7 @@
 
 #blob-path {
   height: 100vh;
-  fill: #a9a497;
+  fill: #171718;
 }
 
 .hamburger {
