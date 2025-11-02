@@ -20,7 +20,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/lamborghini-super-trofeo/",
   },
   {
-    id: 4,
+    id: 2,
     title: "Mini Game",
     skills: "JavaScript, HTML, CSS",
     img: project04,
@@ -28,7 +28,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/mini-game/",
   },
   {
-    id: 5,
+    id: 3,
     title: "Game of circles",
     skills: "JavaScript, HTML, CSS",
     img: project05,
@@ -36,7 +36,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/game-of-circles/",
   },
   {
-    id: 6,
+    id: 4,
     title: "Weather",
     skills: "Vue 3",
     img: project06,
@@ -44,7 +44,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/weather_vue3/",
   },
   {
-    id: 7,
+    id: 5,
     title: "lemurrr",
     skills: `JavaScript, HTML, CSS`,
     img: project07,
@@ -52,7 +52,7 @@ const projects = [
     URL: "https://lemurrr.ru/",
   },
   {
-    id: 9,
+    id: 6,
     title: "Fairy Forest Parallax",
     skills: "JavaScript, GSAP",
     img: project09,
@@ -60,7 +60,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/fairy-forest-parallax/",
   },
   {
-    id: 10,
+    id: 7,
     title: "Fitness Classes",
     skills: "React, Tailwind, Vite",
     img: project10,
@@ -68,7 +68,7 @@ const projects = [
     URL: "https://kudenikovns.github.io/gym-react/",
   },
   {
-    id: 11,
+    id: 8,
     title: "Dashboard",
     skills: `React, TypeScript, Redux Toolkit, Recharts, Mui, Vite, Express (Node.js), MongoDB, Hosting: Render, Vercel`,
     img: project11,
@@ -76,21 +76,21 @@ const projects = [
     URL: "https://dashboardmain-seven.vercel.app/",
   },
   {
-    id: 12,
+    id: 9,
     title: "BoostDealers",
     skills: `JavaScript, Blade (Laravel)`,
     img: project14,
     URL: "https://boostdealers.gg/",
   },
   {
-    id: 13,
+    id: 10,
     title: "Kingboost",
     skills: `JavaScript, PHP, Twig (Laravel)`,
     img: project13,
     URL: "https://kingboost.net/",
   },
   {
-    id: 14,
+    id: 11,
     title: "Wowhunt",
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
     img: project12,
