@@ -9,6 +9,7 @@ import project11 from "./../images/projects/projects_11.jpg";
 import project12 from "./../images/projects/projects_12.jpg";
 import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
+import project15 from "./../images/projects/projects_15.jpg";
 
 const projects = [
   {
@@ -95,6 +96,13 @@ const projects = [
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
     img: project12,
     URL: "https://wowhunt.com/",
+  },
+    {
+    id: 12,
+    title: "Climatise",
+    skills: `Next.js, React, TypeScript, Vite`,
+    img: project15,
+    URL: "https://climatise.si/",
   },
 ];
 
