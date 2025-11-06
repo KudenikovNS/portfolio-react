@@ -143,11 +143,11 @@ function HamburgerMenu() {
               Home
             </ItemLink>
           </li>
-          <li>
+{/*           <li>
             <ItemLink onClick={handleClick} to='/skills'>
               Skills
             </ItemLink>
-          </li>
+          </li> */}
           <li>
             <ItemLink onClick={handleClick} to='/contacts'>
               Contacts

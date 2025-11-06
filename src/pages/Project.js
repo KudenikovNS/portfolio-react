@@ -18,9 +18,11 @@ const Project = () => {
               linkBackend={project.gitHubBackend}
             />
           </div>
-          <div className='project-details__description'>
-            <p>Skills: {project.skills}</p>
-          </div>
+          {project.skills && (
+            <div className='project-details__description'>
+              <p>Skills: {project.skills}</p>
+            </div>
+          )}
           <a href={project.URL} target='_blank' rel='noreferrer'>
             <img
               className='project-details__img'

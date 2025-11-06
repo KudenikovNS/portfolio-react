@@ -10,10 +10,14 @@ import project12 from "./../images/projects/projects_12.jpg";
 import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
 import project15 from "./../images/projects/projects_15.jpg";
+import project16 from "./../images/projects/projects_16.jpg";
+import project17 from "./../images/projects/projects_17.jpg";
+import project18 from "./../images/projects/projects_18.jpg";
 
 const projects = [
   {
     id: 1,
+    type: "project",
     title: "Lamborghini",
     skills: "JavaScript, HTML, CSS",
     img: project01,
@@ -22,6 +26,7 @@ const projects = [
   },
   {
     id: 2,
+    type: "element",
     title: "Mini Game",
     skills: "JavaScript, HTML, CSS",
     img: project04,
@@ -30,6 +35,7 @@ const projects = [
   },
   {
     id: 3,
+    type: "element",
     title: "Game of circles",
     skills: "JavaScript, HTML, CSS",
     img: project05,
@@ -38,6 +44,7 @@ const projects = [
   },
   {
     id: 4,
+    type: "element",
     title: "Weather",
     skills: "Vue 3",
     img: project06,
@@ -46,14 +53,16 @@ const projects = [
   },
   {
     id: 5,
+    type: "project",
     title: "lemurrr",
     skills: `JavaScript, HTML, CSS`,
     img: project07,
-    gitHubLink: "https://github.com/KudenikovNS/lemurrr",
+    /*  gitHubLink: "https://github.com/KudenikovNS/lemurrr", */
     URL: "https://lemurrr.ru/",
   },
   {
     id: 6,
+    type: "element",
     title: "Fairy Forest Parallax",
     skills: "JavaScript, GSAP",
     img: project09,
@@ -62,6 +71,7 @@ const projects = [
   },
   {
     id: 7,
+    type: "project",
     title: "Fitness Classes",
     skills: "React, Tailwind, Vite",
     img: project10,
@@ -70,6 +80,7 @@ const projects = [
   },
   {
     id: 8,
+    type: "element",
     title: "Dashboard",
     skills: `React, TypeScript, Redux Toolkit, Recharts, Mui, Vite, Express (Node.js), MongoDB, Hosting: Render, Vercel`,
     img: project11,
@@ -78,31 +89,57 @@ const projects = [
   },
   {
     id: 9,
+    type: "project",
+    title: "Virin",
+    img: project18,
+    URL: "https://virin.si/",
+  },
+  {
+    id: 10,
+    type: "project",
+    title: "Starta Institute",
+    img: project17,
+    URL: "https://startainstitute.com/",
+  },
+  {
+    id: 11,
+    type: "project",
+    title: "Climatise",
+    skills: `Next.js, React, TypeScript, Vite`,
+    img: project15,
+    URL: "https://climatise.si/",
+  },
+  {
+    id: 12,
+    type: "element",
+    title: "Wheel of Fortune!",
+    skills: `PixiJS, TypeScript, Vite`,
+    img: project16,
+    URL: "https://wheel-of-fortune-delta.vercel.app/",
+  },
+  {
+    id: 13,
+    type: "project",
     title: "BoostDealers",
     skills: `JavaScript, Blade (Laravel)`,
     img: project14,
     URL: "https://boostdealers.gg/",
   },
   {
-    id: 10,
+    id: 14,
+    type: "project",
     title: "Kingboost",
     skills: `JavaScript, PHP, Twig (Laravel)`,
     img: project13,
     URL: "https://kingboost.net/",
   },
   {
-    id: 11,
+    id: 15,
+    type: "project",
     title: "Wowhunt",
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
     img: project12,
     URL: "https://wowhunt.com/",
-  },
-    {
-    id: 12,
-    title: "Climatise",
-    skills: `Next.js, React, TypeScript, Vite`,
-    img: project15,
-    URL: "https://climatise.si/",
   },
 ];
 

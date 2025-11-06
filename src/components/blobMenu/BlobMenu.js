@@ -154,14 +154,14 @@ const BlobMenu = () => {
               Home
             </NavLink>
           </li>
-          <li className="nav-list__item">
+{/*           <li className="nav-list__item">
             <NavLink
               to="/skills"
               className={({ isActive }) => (isActive ? activLink : normalLink)}
             >
               Skills
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-list__item">
             <NavLink
               to="/contacts"
