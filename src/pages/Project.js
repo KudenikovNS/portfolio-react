@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ProjectBtns from "../components/projectBtns/ProjectBtns";
 
@@ -6,6 +7,18 @@ import { projects } from "../helpers/projectsList";
 const Project = () => {
   const { id } = useParams();
   const project = projects[id];
+
+  useEffect(() => {
+    const prevTitle = document.title;
+    if (project?.title) {
+      document.title = `${project.title}`;
+    }
+
+    return () => {
+      document.title = prevTitle;
+    };
+  }, [project?.title]);
+
   return (
     <main className='section'>
       <div className='container'>

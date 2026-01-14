@@ -148,7 +148,7 @@ const BlobMenu = () => {
         <ul className="nav-list">
           <li className="nav-list__item">
             <NavLink
-              to="/portfolio-react"
+              to="/"
               className={({ isActive }) => (isActive ? activLink : normalLink)}
             >
               Home

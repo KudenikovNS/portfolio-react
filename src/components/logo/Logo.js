@@ -23,7 +23,7 @@ const Logo = () => {
     <nav className='nav'>
       <div className='container'>
         <div className='nav-row'>
-          <NavLink to='/portfolio-react' className='logo'>
+          <NavLink to='/' className='logo'>
             <strong>Portfolio</strong>
           </NavLink>
           {windowWidth <= 600 && <HamburgerMenu />}

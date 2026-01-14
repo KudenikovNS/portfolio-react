@@ -139,7 +139,7 @@ function HamburgerMenu() {
       <Navigation clicked={click}>
         <List>
           <li>
-            <ItemLink onClick={handleClick} to='/portfolio-react'>
+            <ItemLink onClick={handleClick} to='/'>
               Home
             </ItemLink>
           </li>

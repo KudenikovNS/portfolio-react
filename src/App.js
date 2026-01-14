@@ -1,5 +1,5 @@
 import "./styles/main.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Logo from "./components/logo/Logo";
 import Footer from "./components/footer/Footer";
 import Project from "./pages/Project";
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Router basename="/portfolio-react">
+      <Router>
         <ScrollToTop />
         <Logo />
         {windowWidth > 600 && <BlobMenu />}
