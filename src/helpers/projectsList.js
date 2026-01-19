@@ -14,6 +14,7 @@ import project16 from "./../images/projects/projects_16.jpg";
 import project17 from "./../images/projects/projects_17.jpg";
 import project18 from "./../images/projects/projects_18.jpg";
 import project19 from "./../images/projects/projects_19.jpg";
+import driveclickbank from "./../images/projects/driveclickbank.jpg"
 
 const projects = [
   {
@@ -88,15 +89,23 @@ const projects = [
     gitHubLink: "https://github.com/KudenikovNS/dashboard",
     URL: "https://dashboardmain-seven.vercel.app/",
   },
-  {
+    {
     id: 9,
+    type: "project",
+    title: "Драйв Клик Банк",
+    skills: `Vue, Swipper, JavaScript`,
+    img: driveclickbank,
+    URL: "https://www.driveclickbank.ru/",
+  },
+  {
+    id: 10,
     type: "project",
     title: "Virin",
     img: project18,
     URL: "https://virin.si/",
   },
   {
-    id: 10,
+    id: 11,
     type: "project",
     title: "MyCircus",
     img: project19,
@@ -104,14 +113,14 @@ const projects = [
     URL: "https://www.mycircus.net/fr",
   },
   {
-    id: 11,
+    id: 12,
     type: "project",
     title: "Starta Institute",
     img: project17,
     URL: "https://startainstitute.com/",
   },
   {
-    id: 12,
+    id: 13,
     type: "project",
     title: "Climatise",
     skills: `Next.js, React, TypeScript, Vite`,
@@ -119,7 +128,7 @@ const projects = [
     URL: "https://climatise.si/",
   },
   {
-    id: 13,
+    id: 14,
     type: "element",
     title: "Wheel of Fortune!",
     skills: `PixiJS, TypeScript, Vite`,
@@ -127,7 +136,7 @@ const projects = [
     URL: "https://wheel-of-fortune-delta.vercel.app/",
   },
   {
-    id: 14,
+    id: 15,
     type: "project",
     title: "BoostDealers",
     skills: `JavaScript, Blade (Laravel)`,
@@ -135,7 +144,7 @@ const projects = [
     URL: "https://boostdealers.gg/",
   },
   {
-    id: 15,
+    id: 16,
     type: "project",
     title: "Kingboost",
     skills: `JavaScript, PHP, Twig (Laravel)`,
