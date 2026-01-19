@@ -13,6 +13,7 @@ import project15 from "./../images/projects/projects_15.jpg";
 import project16 from "./../images/projects/projects_16.jpg";
 import project17 from "./../images/projects/projects_17.jpg";
 import project18 from "./../images/projects/projects_18.jpg";
+import project19 from "./../images/projects/projects_19.jpg";
 
 const projects = [
   {
@@ -97,12 +98,20 @@ const projects = [
   {
     id: 10,
     type: "project",
+    title: "MyCircus",
+    img: project19,
+    skills: `React, TypeScript, JavaScript, Redux Toolkit`,
+    URL: "https://www.mycircus.net/fr",
+  },
+  {
+    id: 11,
+    type: "project",
     title: "Starta Institute",
     img: project17,
     URL: "https://startainstitute.com/",
   },
   {
-    id: 11,
+    id: 12,
     type: "project",
     title: "Climatise",
     skills: `Next.js, React, TypeScript, Vite`,
@@ -110,7 +119,7 @@ const projects = [
     URL: "https://climatise.si/",
   },
   {
-    id: 12,
+    id: 13,
     type: "element",
     title: "Wheel of Fortune!",
     skills: `PixiJS, TypeScript, Vite`,
@@ -118,7 +127,7 @@ const projects = [
     URL: "https://wheel-of-fortune-delta.vercel.app/",
   },
   {
-    id: 13,
+    id: 14,
     type: "project",
     title: "BoostDealers",
     skills: `JavaScript, Blade (Laravel)`,
@@ -126,7 +135,7 @@ const projects = [
     URL: "https://boostdealers.gg/",
   },
   {
-    id: 14,
+    id: 15,
     type: "project",
     title: "Kingboost",
     skills: `JavaScript, PHP, Twig (Laravel)`,
@@ -134,7 +143,7 @@ const projects = [
     URL: "https://kingboost.net/",
   },
   {
-    id: 15,
+    id: 16,
     type: "project",
     title: "Wowhunt",
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,

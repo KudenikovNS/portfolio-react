@@ -9,7 +9,7 @@ const Header = () => {
             Hi, my name is <em>Nikita</em>
           </strong>
           <br />
-          This is my portfolio as a <br /> frontend developer
+          This is my portfolio as a <br /> FullStack developer
         </h1>
         <div className="header__text">
           <p>
@@ -19,7 +19,7 @@ const Header = () => {
           </p>
         </div>
         <a
-          href="https://drive.google.com/file/d/1T7F0LhEjPusmIAW7QGcX1aNdzn-q0FJQ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1h_RX43tatdI1u4WZ5n9uGHrtUg3OkGO1/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -27,7 +27,7 @@ const Header = () => {
           Download CV EN
         </a>
         <a
-          href="https://drive.google.com/file/d/1rL3y3NFI9zhmITyjnwoC0QVZ3NDoaSGS/view"
+          href="https://drive.google.com/file/d/1GPfahWn7zHCY5EEX-ph1gDw3-3lVRbPl/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
