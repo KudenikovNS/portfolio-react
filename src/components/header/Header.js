@@ -13,13 +13,14 @@ const Header = () => {
         </h1>
         <div className="header__text">
           <p>
-            * Because the real commercial projects I have participated in are
-            under NDA (non-disclosure agreement), in my portfolio I showcase
-            projects that have been created to demonstrate my skills.
+            * Since some of the commercial projects I participated in are
+            covered by non-disclosure agreements (NDA), my portfolio also
+            includes demonstration projects created to showcase my skills and
+            development approach.
           </p>
         </div>
         <a
-          href="https://drive.google.com/file/d/1h_RX43tatdI1u4WZ5n9uGHrtUg3OkGO1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ZcrIzF9bbK7UdLDZZxJZwuIV742i70vD/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -27,7 +28,7 @@ const Header = () => {
           Download CV EN
         </a>
         <a
-          href="https://drive.google.com/file/d/1GPfahWn7zHCY5EEX-ph1gDw3-3lVRbPl/view?usp=sharing"
+          href="https://drive.google.com/file/d/140rwVDo4yNqDblKUKRQoSziAyIBEWZQQ/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
