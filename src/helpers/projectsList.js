@@ -11,7 +11,7 @@ import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
 import project15 from "./../images/projects/projects_15.jpg";
 import project16 from "./../images/projects/projects_16.jpg";
-import project17 from "./../images/projects/projects_17.jpg";
+/* import project17 from "./../images/projects/projects_17.jpg"; */
 import project18 from "./../images/projects/projects_18.jpg";
 import project19 from "./../images/projects/projects_19.jpg";
 import driveclickbank from "./../images/projects/driveclickbank.jpg"
@@ -112,13 +112,13 @@ const projects = [
     skills: `React, TypeScript, JavaScript, Redux Toolkit`,
     URL: "https://www.mycircus.net/fr",
   },
-  {
+/*   {
     id: 12,
     type: "project",
     title: "Starta Institute",
     img: project17,
     URL: "https://startainstitute.com/",
-  },
+  }, */
   {
     id: 13,
     type: "project",
