@@ -20,7 +20,7 @@ const Header = () => {
           </p>
         </div>
         <a
-          href="https://drive.google.com/file/d/1ZcrIzF9bbK7UdLDZZxJZwuIV742i70vD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1h1jwoBB4UwJ_4l_dD-AdzaAL9oBlrIPo/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -28,7 +28,7 @@ const Header = () => {
           Download CV EN
         </a>
         <a
-          href="https://drive.google.com/file/d/140rwVDo4yNqDblKUKRQoSziAyIBEWZQQ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1cZ4hblQEWZizd_n1_6bUIWGmS43CxT4C/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
