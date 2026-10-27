@@ -9,11 +9,12 @@ import project11 from "./../images/projects/projects_11.jpg";
 import project12 from "./../images/projects/projects_12.jpg";
 import project13 from "./../images/projects/projects_13.jpg";
 import project14 from "./../images/projects/projects_14.jpg";
-import project15 from "./../images/projects/projects_15.jpg";
+import project15 from "./../images/projects/projects_15.png";
 import project16 from "./../images/projects/projects_16.jpg";
 /* import project17 from "./../images/projects/projects_17.jpg"; */
 import project18 from "./../images/projects/projects_18.jpg";
 import project19 from "./../images/projects/projects_19.jpg";
+import project20 from "./../images/projects/projects_20.png"
 import driveclickbank from "./../images/projects/driveclickbank.jpg"
 
 const projects = [
@@ -120,15 +121,15 @@ const projects = [
     URL: "https://startainstitute.com/",
   }, */
   {
-    id: 13,
+    id: 12,
     type: "project",
-    title: "Climatise",
+    title: "Climatise Slovenia",
     skills: `Next.js, React, TypeScript, Vite`,
     img: project15,
     URL: "https://climatise.si/",
   },
   {
-    id: 14,
+    id: 13,
     type: "element",
     title: "Wheel of Fortune!",
     skills: `PixiJS, TypeScript, Vite`,
@@ -136,7 +137,7 @@ const projects = [
     URL: "https://wheel-of-fortune-delta.vercel.app/",
   },
   {
-    id: 15,
+    id: 14,
     type: "project",
     title: "BoostDealers",
     skills: `JavaScript, Blade (Laravel)`,
@@ -144,7 +145,7 @@ const projects = [
     URL: "https://boostdealers.gg/",
   },
   {
-    id: 16,
+    id: 15,
     type: "project",
     title: "Kingboost",
     skills: `JavaScript, PHP, Twig (Laravel)`,
@@ -157,6 +158,14 @@ const projects = [
     title: "Wowhunt",
     skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
     img: project12,
+    URL: "https://wowhunt.com/",
+  },
+    {
+    id: 17,
+    type: "project",
+    title: "Climatise Global",
+    skills: `TypeScript, React, React Router, Vite, Chakra UI, Tailwind CSS, Redux Toolkit, React Redux, AWS Amplify 6, AWS AppSync GraphQL, Amazon Cognito, React Hook Form, Formik, Yup, Zod, AG Grid, AG Charts, pdfmake, Playwright, Knip`,
+    img: project20,
     URL: "https://wowhunt.com/",
   },
 ];
