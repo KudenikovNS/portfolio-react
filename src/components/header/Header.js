@@ -20,7 +20,7 @@ const Header = () => {
           </p>
         </div>
         <a
-          href="https://drive.google.com/file/d/1h1jwoBB4UwJ_4l_dD-AdzaAL9oBlrIPo/view?usp=sharing"
+          href="https://drive.google.com/file/d/1TBPecko9qkeOTe88uKHyokK-5bqUtOZj/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -28,20 +28,12 @@ const Header = () => {
           Download CV EN
         </a>
         <a
-          href="https://drive.google.com/file/d/1cZ4hblQEWZizd_n1_6bUIWGmS43CxT4C/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ivo71_Oew0WL3oRTLY31DPSbV4enOU_8/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
         >
           Download CV RU
-        </a>
-        <a
-          href="https://github.com/KudenikovNS?tab=repositories"
-          className="btn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/kudenikovns/"
@@ -50,6 +42,14 @@ const Header = () => {
           rel="noreferrer"
         >
           Linkedin
+        </a>
+        <a
+          href="https://github.com/KudenikovNS?tab=repositories"
+          className="btn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
         </a>
       </div>
     </header>
