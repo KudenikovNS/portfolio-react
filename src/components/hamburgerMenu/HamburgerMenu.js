@@ -7,32 +7,29 @@ const COLORS = {
   primaryLight: "#B6EDC8",
 };
 
-const MenuLabel = styled.label`
-  /*   background-color: ${COLORS.primaryLight}; */
-  /*   position: fixed; */
-  /*  top: 6rem; */
-  /*  right: 50%; */
-  position: absolute;
-  right: 16%;
+const MenuButton = styled.button`
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  order: 1;
   border-radius: 50%;
-  height: 7rem;
-  width: 7rem;
+  height: 44px;
+  width: 44px;
   cursor: pointer;
   z-index: 1000;
-  /*   box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3); */
-  text-align: center;
 `;
 
 const NavBackground = styled.div`
-  /* position: fixed; */
-  /* top: 6.5rem; */
-  /* right: 50%; */
+  position: absolute;
+  top: 2px;
+  right: 15px;
   background-image: radial-gradient(
     ${COLORS.primaryDark},
     ${COLORS.primaryLight}
   );
-  height: 6rem;
-  width: 6rem;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   z-index: 600;
   transform: ${(props) => (props.clicked ? "scale(80)" : "scale(0)")};
@@ -42,17 +39,16 @@ const NavBackground = styled.div`
 const Icon = styled.span`
   position: relative;
   background-color: ${(props) => (props.clicked ? "transparent" : "white")};
-  width: 3rem;
+  width: 22px;
   height: 2px;
   display: inline-block;
-  margin-top: 3.5rem;
   transition: all 0.3s;
 
   &::before,
   &::after {
     content: "";
     background-color: white;
-    width: 3rem;
+    width: 22px;
     height: 2px;
     display: inline-block;
 
@@ -62,21 +58,14 @@ const Icon = styled.span`
   }
 
   &::before {
-    top: ${(props) => (props.clicked ? "0" : "-0.8rem")};
+    top: ${(props) => (props.clicked ? "0" : "-6px")};
     transform: ${(props) => (props.clicked ? "rotate(135deg)" : "rotate(0)")};
   }
 
   &::after {
-    top: ${(props) => (props.clicked ? "0" : "0.8rem")};
+    top: ${(props) => (props.clicked ? "0" : "6px")};
 
     transform: ${(props) => (props.clicked ? "rotate(-135deg)" : "rotate(0)")};
-  }
-
-  ${MenuLabel}:hover &::before {
-    top: ${(props) => (props.clicked ? "0" : "-1rem")};
-  }
-  ${MenuLabel}:hover &::after {
-    top: ${(props) => (props.clicked ? "0" : "1rem")};
   }
 `;
 
@@ -131,9 +120,14 @@ function HamburgerMenu() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <MenuLabel htmlFor='navi-toggle' onClick={handleClick}>
+      <MenuButton
+        type='button'
+        aria-label={click ? 'Close menu' : 'Open menu'}
+        aria-expanded={click}
+        onClick={handleClick}
+      >
         <Icon clicked={click}>&nbsp;</Icon>
-      </MenuLabel>
+      </MenuButton>
       <NavBackground clicked={click}>&nbsp;</NavBackground>
 
       <Navigation clicked={click}>

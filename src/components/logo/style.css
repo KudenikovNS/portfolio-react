@@ -1,9 +1,14 @@
 .nav {
   background-color: var(--dark-bg);
   color: var(--header-text);
-  /*   padding: 20px 0; */
+  padding: 20px 0;
   border-bottom: 1px solid var(--dark-border);
   letter-spacing: normal;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-shrink: 0;
+  width: 100%;
 }
 
 .nav-row {
@@ -58,4 +63,22 @@
   height: 2px;
   width: 100%;
   background-color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  nav.nav {
+    padding: 2px 0;
+  }
+
+  .nav .nav-row {
+    min-height: 44px;
+    column-gap: 8px;
+    row-gap: 0;
+    flex-wrap: nowrap;
+  }
+
+  .nav .logo {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }

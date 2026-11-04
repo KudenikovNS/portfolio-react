@@ -63,34 +63,6 @@
   bottom: 0;
 }
 
-.nav {
-  background-color: var(--dark-bg);
-  color: var(--header-text);
-  padding: 20px 0;
-  border-bottom: 1px solid var(--dark-border);
-  letter-spacing: normal;
-}
-
-.nav-row {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  column-gap: 30px;
-  row-gap: 20px;
-  flex-wrap: wrap;
-}
-
-.logo {
-  margin-right: auto;
-  font-family: "Poppins", sans-serif;
-  color: var(--header-text);
-  font-size: 24px;
-}
-
-.logo strong {
-  font-weight: 700;
-}
-
 .nav-list {
   display: flex;
   flex-direction: column;

@@ -11,7 +11,7 @@ const Contacts = () => {
           <li className='content-list__item'>
             <h2 className='projects__title2'>Telegram</h2>
             <p>
-              <a href='https://t.me/NikitaKudenikov' target="_blank" rel="noreferrer">@NikitaKudenikov</a>
+              <a href='https://t.me/nik_kudenik' target="_blank" rel="noreferrer">@nik_kudenik</a>
             </p>
           </li>
           <li className='content-list__item'>
@@ -23,7 +23,7 @@ const Contacts = () => {
           <li className='content-list__item'>
             <h2 className='projects__title2'>Email</h2>
             <p>
-              <a href='mailto:kudenikov.92@gmail.com'>kudenikov.92@gmail.com</a>
+              <a href='mailto:kudenikovns@gmail.com'>kudenikovns@gmail.com</a>
             </p>
           </li>
         </ul>
