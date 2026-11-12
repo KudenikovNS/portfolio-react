@@ -19,8 +19,8 @@ const Header = () => {
             development approach.
           </p>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1BO1Z0eHpSAdE1MfVvOi8hSBBaHQLyP9E/view?usp=sharing"
+        {/* <a
+          href="https://drive.google.com/file/d/1XlUgWhtzBUlVtcevw3GLqPYd0HRuSFl3/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
@@ -28,13 +28,13 @@ const Header = () => {
           Download CV EN
         </a>
         <a
-          href="https://drive.google.com/file/d/16AvZDTNauicLNX9jPKGzDqKTBvW25SOJ/view?usp=sharing"
+          href="https://drive.google.com/file/d/14adnLOKa_piH47opUVe1IesCZa6diRf7/view?usp=sharing"
           className="btn"
           target="_blank"
           rel="noreferrer"
         >
           Download CV RU
-        </a>
+        </a> */}
         <a
           href="https://www.linkedin.com/in/kudenikovns/"
           className="btn"
@@ -44,7 +44,7 @@ const Header = () => {
           Linkedin
         </a>
         <a
-          href="https://github.com/KudenikovNS?tab=repositories"
+          href="https://github.com/KudenikovNS"
           className="btn"
           target="_blank"
           rel="noreferrer"

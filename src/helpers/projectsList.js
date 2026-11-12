@@ -14,8 +14,10 @@ import project16 from "./../images/projects/projects_16.jpg";
 /* import project17 from "./../images/projects/projects_17.jpg"; */
 import project18 from "./../images/projects/projects_18.jpg";
 import project19 from "./../images/projects/projects_19.jpg";
-import project20 from "./../images/projects/projects_20.png"
-import driveclickbank from "./../images/projects/driveclickbank.jpg"
+import project20 from "./../images/projects/projects_20.png";
+import project21 from "./../images/projects/projects_21.png";
+import project22 from "./../images/projects/projects_22.png";
+import driveclickbank from "./../images/projects/driveclickbank.jpg";
 
 const projects = [
   {
@@ -90,7 +92,7 @@ const projects = [
     gitHubLink: "https://github.com/KudenikovNS/dashboard",
     URL: "https://dashboardmain-seven.vercel.app/",
   },
-    {
+  {
     id: 9,
     type: "project",
     title: "Драйв Клик Банк",
@@ -113,7 +115,7 @@ const projects = [
     skills: `React, TypeScript, JavaScript, Redux Toolkit`,
     URL: "https://www.mycircus.net/fr",
   },
-/*   {
+  /*   {
     id: 12,
     type: "project",
     title: "Starta Institute",
@@ -140,7 +142,7 @@ const projects = [
     id: 14,
     type: "project",
     title: "BoostDealers",
-    skills: `JavaScript, Blade (Laravel)`,
+    skills: `PHP, Laravel, Blade`,
     img: project14,
     URL: "https://boostdealers.gg/",
   },
@@ -148,7 +150,7 @@ const projects = [
     id: 15,
     type: "project",
     title: "Kingboost",
-    skills: `JavaScript, PHP, Twig (Laravel)`,
+    skills: `PHP, Laravel, Node.js, React, TypeScript`,
     img: project13,
     URL: "https://kingboost.net/",
   },
@@ -156,17 +158,33 @@ const projects = [
     id: 16,
     type: "project",
     title: "Wowhunt",
-    skills: `Next.js, TypeScript, Tailwind, Laravel, PHP, MySQL`,
+    skills: `Node.js, PostgreSQL, Next.js, TypeScript`,
     img: project12,
     URL: "https://wowhunt.com/",
   },
-    {
+  {
     id: 17,
     type: "project",
+    title: "Virin TradeOutlook",
+    skills: `Node.js, PostgreSQL, REST API, AI Agents, AWS Bedrock, Tool Calling, TypeScript, React, Next.js, .`,
+    img: project21,
+    URL: "https://virin-tradeoutlook.com/",
+  },
+  {
+    id: 18,
+    type: "project",
     title: "Climatise Global",
-    skills: `TypeScript, React, React Router, Vite, Chakra UI, Tailwind CSS, Redux Toolkit, React Redux, AWS Amplify 6, AWS AppSync GraphQL, Amazon Cognito, React Hook Form, Formik, Yup, Zod, AG Grid, AG Charts, pdfmake, Playwright, Knip`,
+    skills: `Node.js, Python, PostgreSQL, GraphQL, AWS, React, TypeScript, AG Grid, AG Charts, pdfmake`,
     img: project20,
-    URL: "https://wowhunt.com/",
+    URL: "https://climatise.com/",
+  },
+    {
+    id: 19,
+    type: "element",
+    title: "AI DaaLens",
+    skills: `NestJS, PostgreSQL, Drizzle, AWS, TypeScript, Next.js, React`,
+    img: project22,
+    gitHubLink: "https://github.com/KudenikovNS/datalens-ai",
   },
 ];
 

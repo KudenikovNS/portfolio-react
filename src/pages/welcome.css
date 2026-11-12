@@ -1,0 +1,88 @@
+/* Colors and fonts match the new portfolio (kudenikovns.github.io/portfolio) */
+:root {
+  --welcome-bg: #191919;
+  --welcome-text: #fff;
+  --welcome-accent: #fd735a;
+  --welcome-font: "Josefin Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--welcome-bg);
+  color: var(--welcome-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.welcome {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  background-color: var(--welcome-bg);
+  text-align: center;
+  font-family: var(--welcome-font);
+}
+
+.welcome__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.welcome__title {
+  position: relative;
+  margin: 0;
+  font-size: clamp(56px, 12vw, 120px);
+  font-weight: 300;
+  letter-spacing: 4px;
+  line-height: 1.2;
+}
+
+/* Thin fading divider under the title, like in the new portfolio */
+.welcome__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgb(165, 165, 165),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.welcome__btn {
+  display: inline-block;
+  min-width: 190px;
+  padding: 14px 28px;
+  border: 2px solid var(--welcome-accent);
+  background-color: var(--welcome-accent);
+  color: var(--welcome-text);
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.welcome__btn:hover {
+  transform: translateY(-2px);
+}
